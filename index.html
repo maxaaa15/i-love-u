@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <title>Judul halaman</title>
+    
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Splash&display=swap" rel="stylesheet">
+    
+    <style type="text/css" media="all">
+    
+        body{
+            background-color: gray;
+        }
+         
+        .ukuran{
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            padding: 50px;
+            border-radius: 70px;
+        }
+        .ukuran2{
+            border-sizing: border-box;
+            width: 600px;
+            height: 800px;
+            background-image: var(--mmm);
+            background-size: 250%;
+            animation: warna 9s infinite alternate;
+            border-radius: 20px;
+            border: 51 solid black;
+            position: absolute;
+            text-align: center;
+            padding: 100px;
+            margin: 80px 80px;
+            
+        }
+        
+        .font{
+            font-size: 30px;
+            color: white;
+            margin: auto 2;
+        }
+        
+        h1{
+            font-family: 'Lilita One', cursive;
+            background-image: var(--transisi);
+            background-clip: text;
+            border-radius: 40px;
+            color: white;
+        }
+        
+        :root{
+            --transisi:linear-gradient(90deg, rgba(197,111,255,1) 11%, rgba(83,188,233,1) 30%, rgba(94,210,211,1) 51%, rgba(61,176,255,1) 71%, rgba(181,73,255,1) 93%);
+            
+            --mmm:radial-gradient(circle, rgba(144,208,202,1) 11%, rgba(192,137,201,1) 35%, rgba(182,157,214,1) 61%, rgba(151,222,211,1) 92%);
+        }
+        
+      @keyframes warna {
+        0% {
+            background-position: left;
+        }
+        
+        100% {
+            background-position: right;
+        }
+        
+        audio{ 
+            width: 150px;
+            height: 40px;
+            margin: 20px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    
+     <div class="ukuran2">
+        <div>
+         <img class="ukuran" src="kedua.webp" alt="" />
+         <audio controls>
+            <source src="ulta.mp3" type="audio/mpeg" media="mp3" />
+         </audio>
+         <marquee>
+             <p class="font">PLAY DULU</p>
+        </marquee>
+        <h1>pejamkan mata berdoa apa yang di ingin <br />kan di 17th ini</h1>
+         </div>
+     </div>
+</body>
+</html>
